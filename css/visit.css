@@ -1,0 +1,130 @@
+body {
+margin:0;
+padding:0;
+/*background: url(images/bground.png) 0 0 repeat;*/
+font: 12px "Yanone Kaffeesatz", arial, serif;
+}
+#content {
+margin:20px 100px 0 100px;
+width:300px;
+}
+h1 {
+padding:20px 10px;
+margin:0 0 20px 0;
+font-size: 24px;
+font-weight: normal;
+background:rgb(144,144,144);
+background:rgba(255,255,255,.1);
+color:#FFF;
+}
+h1 a {
+color: #ff7e00;
+font-size: 20px;
+}
+.visitorInfo {
+padding: 10px 0;
+margin:0;
+list-style-type: none;
+}
+
+.visitorInfo h2 {
+margin:5px 0;
+padding:0;
+}
+.visitorInfo h2 a {
+font-size: 18px;
+display: block;
+font-weight: normal;
+color:#FFF;
+text-decoration:none;
+margin:0;
+padding:10px;
+background:rgb(144,144,144);
+background:rgba(255,255,255,.3);
+position:relative;
+}
+.visitorInfo :not(:target) h2 a {
+background:rgb(59,59,59);
+background:rgba(0,0,0,.4);
+position:relative;
+}
+.visitorInfo h2 a:hover,
+.visitorInfo h2 a:active,
+.visitorInfo h2 a:focus {
+background-color:rgb(59,59,59);
+background-color:rgba(255,255,255,.3);
+}
+.visitorInfo :target p,
+.visitorInfo :not(:target) p {
+padding:0;
+margin:0;
+height:0;
+overflow: hidden;
+-moz-transition: height 1.5s ease-in;
+-webkit-transition: height 1.5s ease-in;
+-o-transition: height 1.5s ease-in;
+transition: height 1.5s ease-in;
+}
+.visitorInfo :target p {
+height:295px;
+color:#FFF;
+font: 12px "Yanone Kaffeesatz", arial, serif;
+}
+.visitorInfo #hours p,
+.visitorInfo #admission p,
+.visitorInfo #bus p 
+.visitorInfo #policies p,
+.visitorInfo #tours p
+.visitorInfo #visit p 
+.visitorInfo #camp p,
+.visitorInfo #contact p,
+.visitorInfo #about p{
+
+
+position:relative;
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+
+.visitorInfo p {
+height:395px;
+font: 12px "Yanone Kaffeesatz", arial, serif;
+color:#FFF;
+}
+.visitorInfo p span{
+font-size:14px;
+display:block;
+height:35px;
+padding:15px 0 0 0;
+text-indent:10px;
+position:absolute;
+bottom:0;
+left:0;
+width:100%;
+color:#FFF;
+background:rgb(144,144,144);
+background: rgba(0,0,0,.6);
+-webkit-border-bottom-right-radius:5px;
+-webkit-border-bottom-left-radius:5px;
+-moz-border-radius-bottomright:5px;
+-moz-border-radius-bottomleft:5px;
+border-bottom-right-radius:5px;
+border-bottom-left-radius:5px;
+}
+h1,
+.visitorInfo h2 a,
+.visitorInfo :not(:target) p  {
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.reload  {
+display:block;
+padding:60px 0 0 0;
+color:#fff;
+font-size: 14px;
+}

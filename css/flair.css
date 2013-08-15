@@ -1,0 +1,139 @@
+body {
+margin:0;
+padding:0;
+/*background: url(images/bground.png) 0 0 repeat;*/
+font: 12px "Yanone Kaffeesatz", arial, serif;
+}
+#content {
+margin:20px 100px 0 100px;
+width:300px;
+}
+h1 {
+padding:20px 10px;
+margin:0 0 20px 0;
+font-size: 24px;
+font-weight: normal;
+background:rgb(144,144,144);
+background:rgba(255,255,255,.1);
+color:#FFF;
+}
+h1 a {
+color: #ff7e00;
+font-size: 20px;
+}
+.flairInfo {
+padding: 2px 0;
+margin:0;
+list-style-type: none;
+}
+
+.flairInfo h2 {
+margin:2px 0;
+padding:0;
+}
+.flairInfo h2 a {
+font-size: 18px;
+display: block;
+font-weight: normal;
+color:#FFF;
+text-decoration:none;
+margin:0;
+padding:10px;
+background:rgb(144,144,144);
+background:rgba(255,255,255,.3);
+position:relative;
+}
+.flairInfo :not(:target) h2 a {
+background:rgb(59,59,59);
+background:rgba(0,0,0,.4);
+position:relative;
+}
+.flairInfo h2 a:hover,
+.flairInfo h2 a:active,
+.flairInfo h2 a:focus {
+background-color:rgb(59,59,59);
+background-color:rgba(255,255,255,.3);
+}
+.flairInfo :target p,
+.flairInfo :not(:target) p {
+padding:0;
+margin:0;
+height:0;
+overflow: hidden;
+-moz-transition: height 1.5s ease-in;
+-webkit-transition: height 1.5s ease-in;
+-o-transition: height 1.5s ease-in;
+transition: height 1.5s ease-in;
+}
+.flairInfo :target p {
+height:295px;
+color:#FFF;
+font: 12px "Yanone Kaffeesatz", arial, serif;
+}
+
+.flairInfo #abbot p,
+.flairInfo #arboretum p,
+.flairInfo #botanical p,
+.flairInfo #institute p,
+.flairInfo #sciences p 
+.flairInfo #castle p,
+.flairInfo #cooper p
+.flairInfo #daniel p 
+.flairInfo #evan p,
+.flairInfo #godet p,
+.flairInfo #hungry p,
+.flairInfo #lover p,
+.flairInfo #pembroke p,
+.flairInfo #shelly p,
+.flairInfo #spittal p,
+.flairInfo #summer p,
+.flairInfo #winter p{
+
+
+position:relative;
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+
+.flairInfo p {
+height:395px;
+font: 12px "Yanone Kaffeesatz", arial, serif;
+color:#FFF;
+}
+.flairInfo p span{
+font-size:14px;
+display:block;
+height:35px;
+padding:15px 0 0 0;
+text-indent:10px;
+position:absolute;
+bottom:0;
+left:0;
+width:50%;
+color:#FFF;
+background:rgb(144,144,144);
+background: rgba(0,0,0,.6);
+-webkit-border-bottom-right-radius:5px;
+-webkit-border-bottom-left-radius:5px;
+-moz-border-radius-bottomright:5px;
+-moz-border-radius-bottomleft:5px;
+border-bottom-right-radius:5px;
+border-bottom-left-radius:5px;
+}
+h1,
+.flairInfo h2 a,
+.flairInfo :not(:target) p  {
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.reload  {
+display:block;
+padding:60px 0 0 0;
+color:#fff;
+font-size: 14px;
+}
